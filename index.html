@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="有事说事 Mac 语音输入的使用帮助、模型下载说明与联系支持。"><title>有事“说”事 · 使用支持</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><a class="brand" href="index.html"><img src="logo.png" alt="有事说事标志"><span>有事“说”事</span></a><nav><a href="privacy.html">隐私政策</a></nav></header>
+<main class="policy"><div class="eyebrow">Mac 语音输入 · 使用支持</div><h1>开口说，<br>自然成文。</h1><p>使用本机模型，将口述转为文字。支持中文、英文与中英混合、个人词典、自定义录音快捷键和授权后的跨应用粘贴回填。</p><p>App Store 版本正在准备。适用于 Apple Silicon Mac，macOS 26 或更新版本。</p>
+<h2>第一次使用</h2><ol><li>打开「模型与下载」，选择「下载并使用」。推荐先下载 Whisper Turbo；不需要打开终端或额外安装 Python。</li><li>在「偏好设置」按说明允许麦克风、输入监控和自动回填权限。系统设置中的名称随 macOS 版本变化。</li><li>点进目标输入框，按 Fn 开始说话，再按一次停止。也可在偏好设置里设置组合快捷键。</li><li>录音与识别期间保持原应用、窗口和光标位置。文字回填后，是否发送由你决定。</li></ol>
+<h2>模型与磁盘空间</h2><p>Whisper Turbo 约 1.6 GB；Whisper large-v3 约 3.1 GB；Qwen3-ASR 1.7B 约 4.1 GB。可以只安装一个模型。下载、完整性校验与缓存需要额外空间，全部安装建议预留 15 GB。模型准备好后可离线识别。</p><p>默认使用 hf-mirror，也可切换到 Hugging Face 官方源。下载支持暂停与续传；下载后校验 SHA-256。下载失败时可重试、切换来源或检查剩余磁盘空间。</p>
+<h2>自动回填的边界</h2><p>商店版通过系统授权的粘贴事件回填，不读取其他应用的输入框。App 会核对前台应用和窗口，但无法判断同一窗口内输入框、聊天或光标是否改变，也无法确认目标应用是否已接受粘贴。录音期间请保持输入位置。系统处于安全输入状态时停止自动回填。</p><p>某些应用不接受模拟粘贴；你可在「语音输入」中复制最近转写，再自行粘贴。录音失败与录音浮窗不会主动切到主窗口。</p>
+<h2>快捷键与词典</h2><p>在「偏好设置 → 录音快捷键」更改按键，支持 Command 与左 Shift 等组合。若使用 Fn，请在系统键盘设置中将 Fn／地球键设为「不执行任何操作」，并退出会占用同一快捷键的其他语音输入软件。</p><p>在「词典」添加人名、术语和常用词。自动学习可以关闭。商店版只从你在本 App 最近转写中的短词纠正学习，不读取其他应用中的纠正；学习用于识别提示，不保证每次命中。</p>
+<h2>联系支持</h2><p><a href="mailto:daniel_hk@126.com">daniel_hk@126.com</a></p><p>请提供 App 版本、macOS 版本、芯片类型、所选模型及错误提示。无需提供密码、私人词典或包含隐私内容的录音。</p></main>
+<footer><span>有事“说”事</span><a href="privacy.html">隐私政策</a></footer></body></html>
